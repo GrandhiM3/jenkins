@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-17T02:34:50Z" name="Default suite" finished-at="2021-10-17T02:35:41Z" duration-ms="50974">
+    <groups>
+    </groups>
+    <test started-at="2021-10-17T02:34:50Z" name="Default test" finished-at="2021-10-17T02:35:41Z" duration-ms="50974">
+      <class name="com.Ecommerce.Option2.CheckOutFunctionality">
+        <test-method signature="openAppilication()[pri:1, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:34:50Z" name="openAppilication" description="Launch Appilication" finished-at="2021-10-17T02:34:55Z" duration-ms="5184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppilication -->
+        <test-method signature="EnterUsername()[pri:2, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:34:55Z" name="EnterUsername" description="Enter UserName" finished-at="2021-10-17T02:34:55Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUsername -->
+        <test-method signature="EnterPassword()[pri:3, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:34:55Z" name="EnterPassword" description="Enter Password" finished-at="2021-10-17T02:35:00Z" duration-ms="5077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPassword -->
+        <test-method signature="clickLogin()[pri:4, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:35:00Z" name="clickLogin" description="Click Login" finished-at="2021-10-17T02:35:05Z" duration-ms="5136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogin -->
+        <test-method signature="AddTshirttoCart()[pri:5, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:35:05Z" name="AddTshirttoCart" description="Add Tshirt" finished-at="2021-10-17T02:35:12Z" duration-ms="7070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTshirttoCart -->
+        <test-method signature="AddBackpacktoCart()[pri:6, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:35:12Z" name="AddBackpacktoCart" description="Add BackPack" finished-at="2021-10-17T02:35:18Z" duration-ms="5055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddBackpacktoCart -->
+        <test-method signature="GotoCart()[pri:7, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:35:18Z" name="GotoCart" description="Go to Cart" finished-at="2021-10-17T02:35:25Z" duration-ms="7094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GotoCart -->
+        <test-method signature="CartItemsVerification()[pri:8, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:35:25Z" name="CartItemsVerification" description="Cart Items Verification" finished-at="2021-10-17T02:35:25Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartItemsVerification -->
+        <test-method signature="checkOut()[pri:9, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:35:25Z" name="checkOut" description="Click CheckOut" finished-at="2021-10-17T02:35:27Z" duration-ms="2062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOut -->
+        <test-method signature="EnterCustomerDetails()[pri:10, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:35:27Z" name="EnterCustomerDetails" description="Enter Customer Details" finished-at="2021-10-17T02:35:31Z" duration-ms="4261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterCustomerDetails -->
+        <test-method signature="ClickContinue()[pri:11, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:35:31Z" name="ClickContinue" description="Click Continue Button" finished-at="2021-10-17T02:35:36Z" duration-ms="5071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickContinue -->
+        <test-method signature="ItemTotal()[pri:12, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:35:36Z" name="ItemTotal" description="Verify Item Total" finished-at="2021-10-17T02:35:36Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemTotal -->
+        <test-method signature="FinishOrder()[pri:13, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:35:36Z" name="FinishOrder" description="Finish the Order" finished-at="2021-10-17T02:35:38Z" duration-ms="2065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinishOrder -->
+        <test-method signature="orderConfirmation()[pri:14, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:35:38Z" name="orderConfirmation" description="Order Confirmation" finished-at="2021-10-17T02:35:40Z" duration-ms="2036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderConfirmation -->
+        <test-method signature="QuitBrowser()[pri:15, instance:com.Ecommerce.Option2.CheckOutFunctionality@4535b6d5]" started-at="2021-10-17T02:35:40Z" name="QuitBrowser" description="Closing The Browser" finished-at="2021-10-17T02:35:41Z" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- com.Ecommerce.Option2.CheckOutFunctionality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
