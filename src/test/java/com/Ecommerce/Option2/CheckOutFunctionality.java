@@ -107,7 +107,7 @@ public class CheckOutFunctionality extends BaseClass{
 	 @Test (priority = 14, description = "Order Confirmation")
 		public void orderConfirmation() throws InterruptedException {
 			OCpage.VerifyOrderConfirmation("Thank you for your Order");
-			Thread.sleep(2000);			
+			Thread.sleep(2000);
 		}
 	 
 	 @Test (priority = 15, description = "Closing The Browser")
