@@ -28,7 +28,7 @@ public class ExtentMaster {
 		        htmlrepoter.config().setTheme(Theme.STANDARD);
 		        extent = new ExtentReports();
 		        extent.attachReporter(htmlrepoter);
-		        extent.setSystemInfo("Kalyan Bathina", "Automation Engineer");
+		        extent.setSystemInfo("Murali Grandhi", "Automation Engineer");
 		      
 		      
 			return extent;
