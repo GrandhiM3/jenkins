@@ -1,5 +1,8 @@
 package Reports;
 
+import BaseFramework.BaseClass;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -27,6 +30,8 @@ public class ExtentList  implements ITestListener{
 	public void onTestFailure(ITestResult result) { 
 		
 		test.fail(result.getThrowable());
+		String base64Screenshot = ((TakesScreenshot) BaseClass.driver).getScreenshotAs(OutputType.BASE64);
+		test.addScreenCaptureFromBase64String(base64Screenshot);
 		
 	
 	}
