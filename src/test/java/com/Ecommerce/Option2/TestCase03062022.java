@@ -9,11 +9,6 @@ import BaseFramework.BaseClass;
 
 @Listeners(Reports.ExtentList.class)
 public class TestCase03062022 extends BaseClass{
-
-
-    loginPage lpage = new loginPage();
-
-
     @Test (priority = 1, description = "Launch Appilication")
     public void openAppilication() throws InterruptedException {
         BaseClass.launchBrowser();

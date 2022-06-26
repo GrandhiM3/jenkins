@@ -41,7 +41,7 @@ public class WebTablePage extends BaseClass {
 
     public static void Verify(){
         String Act = driver.findElement(nametext).getText();
-        String Exp = "Murali";
+        String Exp = "apple";
 
 
         Assert.assertEquals(Act,Exp);

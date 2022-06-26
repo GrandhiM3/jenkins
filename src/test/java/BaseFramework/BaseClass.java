@@ -42,16 +42,15 @@ public class BaseClass {
 	}
 	
 	
-	public static void launchBrowser()
-	{
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
-			driver.get("https://demoqa.com/webtables");
-			driver.manage().window().maximize();
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-			
-			
+	public static void launchBrowser() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+
+		//ABSA URL = https://www.saucedemo.com/
+		driver.get("https://demoqa.com/webtables");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 	}
 	
 	public static void closeBrowser()
